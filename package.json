@@ -1,0 +1,22 @@
+{
+    "name": "simple-server",
+    "version": "1.0.0",
+    "main": "app.ts",
+    "scripts": {
+        "start": "ts-node-dev ./app/app.ts",
+        "test": "mocha ./test/apiTest.ts"
+    },
+    "author": "Michal Zajkowski",
+    "devDependencies": {
+        "@types/express": "^4.17.11",
+        "@types/mocha": "^9.0.0",
+        "@types/node": "^14.14.37",
+        "ts-node-dev": "^1.1.6",
+        "typescript": "^4.2.3"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mocha": "^9.1.2",
+        "pactum": "^3.1.0"
+    }
+}
